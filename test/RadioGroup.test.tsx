@@ -16,6 +16,6 @@ describe('RadioGroup', () => {
       </RadioGroup>
     );
     const element = screen.queryByText(TITLE);
-    expect(element).toBeInTheDocument;
+    expect(element).toBeInTheDocument();
   });
 });
