@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -16,8 +16,6 @@
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
-    "size": "size-limit",
-    "analyze": "size-limit --why",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -45,16 +43,6 @@
   "name": "chakra-radio-group",
   "author": "Kristián Müller",
   "module": "dist/chakra-radio-group.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/chakra-radio-group.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/chakra-radio-group.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@chakra-ui/pro-theme": "0.0.57",
@@ -62,7 +50,6 @@
     "@chakra-ui/storybook-addon": "4.0.12",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
-    "@size-limit/preset-small-lib": "^8.1.0",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-links": "^6.5.13",
@@ -82,7 +69,6 @@
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
     "react-render-prop-type": "^0.1.0",
-    "size-limit": "^8.1.0",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
     "typescript": "4.6.4"
