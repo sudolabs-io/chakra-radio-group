@@ -7,13 +7,13 @@ This component is a custom solution for Radio Group Select, built with [@chakra-
 To use this package install it with one of these commands:
 
 ```bash
-npm install @sudolabs-io/chakra-react-select # TODO: Upload to npm
+npm install chakra-radio-group
 ```
 
 or
 
 ```bash
-yarn add @sudolabs-io/chakra-react-select # TODO: Upload to npm
+yarn add chakra-radio-group
 ```
 
 ### Example
