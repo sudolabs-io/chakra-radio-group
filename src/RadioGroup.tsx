@@ -1,4 +1,3 @@
-import React from 'react';
 import { RenderProp } from 'react-render-prop-type';
 import {
   CSSWithMultiValues,
