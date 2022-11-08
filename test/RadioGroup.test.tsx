@@ -1,21 +1,9 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import { RadioGroup } from '../src';
-import { Box } from '@chakra-ui/react';
-
-const TITLE = 'Test Title';
+import { render } from '@testing-library/react';
+import { Default as RadioGroup } from '../stories/RadioGroup.stories';
 
 describe('RadioGroup', () => {
   it('Renders without crashing', () => {
-    render(
-      <RadioGroup
-        options={[{ title: TITLE }]}
-        getOptionValue={({ title }) => title}
-      >
-        {({ option }) => <Box>{option.title}</Box>}
-      </RadioGroup>
-    );
-    const element = screen.queryByText(TITLE);
-    expect(element).toBeInTheDocument();
+    render(<RadioGroup />);
   });
 });

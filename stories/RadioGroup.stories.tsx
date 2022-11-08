@@ -1,5 +1,5 @@
 import React from 'react';
-import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { ComponentMeta } from '@storybook/react';
 import { RadioGroup } from '../src';
 import { Flex, Box, Text } from '@chakra-ui/react';
 
@@ -8,7 +8,7 @@ export default {
   component: RadioGroup,
 } as ComponentMeta<typeof RadioGroup>;
 
-const Template: ComponentStory<typeof RadioGroup> = () => (
+export const Default = () => (
   <RadioGroup
     options={[
       { title: 'Title #1', subtitle: 'Subitle #1' },
@@ -46,5 +46,3 @@ const Template: ComponentStory<typeof RadioGroup> = () => (
     )}
   </RadioGroup>
 );
-
-export const Default = Template.bind({});
