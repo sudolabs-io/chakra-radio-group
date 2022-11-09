@@ -1,6 +1,6 @@
 {
   "name": "chakra-radio-group",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Custom radio group component built with Chakra-UI",
   "publishConfig": {
     "access": "public"
