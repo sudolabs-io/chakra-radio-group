@@ -21,6 +21,7 @@ export interface Props<Option, Value>
   defaultValue?: string;
   getOptionValue: (option: Option) => Value;
   onChange?: (value: Value) => void;
+  generalStyles?: CSSWithMultiValues;
   hoverStyles?: CSSWithMultiValues;
   focusStyles?: CSSWithMultiValues;
 }
@@ -33,6 +34,7 @@ export const RadioGroup = <Option, Value extends string>({
   value,
   getOptionValue,
   onChange,
+  generalStyles,
   hoverStyles,
   focusStyles,
   ...props
@@ -57,6 +59,7 @@ export const RadioGroup = <Option, Value extends string>({
           <RadioGroupItem
             key={optionValue}
             radio={radioProps}
+            generalStyles={generalStyles}
             hoverStyles={hoverStyles}
             focusStyles={focusStyles}
           >

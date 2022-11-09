@@ -12,12 +12,14 @@ import {
 
 export interface RadioGroupItemProps extends BoxProps {
   radio: UseRadioProps;
+  generalStyles?: CSSWithMultiValues;
   hoverStyles?: CSSWithMultiValues;
   focusStyles?: CSSWithMultiValues;
 }
 
 export const RadioGroupItem = ({
   radio,
+  generalStyles,
   hoverStyles,
   focusStyles,
   children,
@@ -38,6 +40,7 @@ export const RadioGroupItem = ({
       {...labelProps}
       sx={{
         w: 'fit-content',
+        ...generalStyles,
         '[data-focus-visible]': {
           ...focusStyles,
         },
