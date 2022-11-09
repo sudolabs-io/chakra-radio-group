@@ -15,8 +15,8 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install deps and build (with cache)
+        uses: bahmutov/npm-install@v1
 
       - name: Semantic Release
         run: npx semantic-release
