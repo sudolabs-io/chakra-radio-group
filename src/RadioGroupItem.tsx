@@ -50,9 +50,9 @@ export const RadioGroupItem = ({
       <Box sx={styles} {...checkboxProps} {...props}>
         <Flex
           justify="space-between"
-          direction={{ base: 'column', md: 'row' }}
+          gap={{ base: '4', md: 'unset' }}
           align={{ base: 'stretch', md: 'center' }}
-          gap={{ base: '4', md: '0' }}
+          direction={{ base: 'column', md: 'row' }}
         >
           {children}
         </Flex>
