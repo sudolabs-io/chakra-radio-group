@@ -56,6 +56,7 @@ yarn add chakra-radio-group
 - `defaultValue` - [❓] - String value from options which matches the key from **_getOptionValue_** function
 - `name` - [❓] - String value which sets the input name attribute
 - `onChange` - [❓] - Custom function to handle the _onChange_ event
+- `generalStyles` - [❓] - Object of multiple CSS properties to style **Radio Group Item** component
 - `hoverStyles` - [❓] - Object of multiple CSS properties which are set on _hover_ state
 - `focusStyles` - [❓] - Object of multiple CSS properties which are set on _focus_ state
 
