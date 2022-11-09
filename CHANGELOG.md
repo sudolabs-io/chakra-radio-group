@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/sudolabs-io/chakra-radio-group/compare/v1.0.0...v1.1.0) (2022-11-09)
+
+
+### Features
+
+* add generalStyles ([5829fe0](https://github.com/sudolabs-io/chakra-radio-group/commit/5829fe042522dfab9b0f254bfc8b31e94464578b))
+
 # 1.0.0 (2022-11-09)
 
 
