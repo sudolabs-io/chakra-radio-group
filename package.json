@@ -1,14 +1,32 @@
 {
+  "name": "chakra-radio-group",
   "version": "0.0.1",
+  "description": "Custom radio group component built with Chakra-UI",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
+  "author": "Kristián Müller",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "module": "dist/chakra-radio-group.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudolabs-io/chakra-radio-group.git"
+  },
+  "keywords": [
+    "chakra",
+    "chakra-radio",
+    "chakra-radio-group",
+    "radio-group"
+  ],
+  "homepage": "https://github.com/sudolabs-io/chakra-radio-group#readme",
   "files": [
     "dist",
     "src"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -40,9 +58,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "chakra-radio-group",
-  "author": "Kristián Müller",
-  "module": "dist/chakra-radio-group.esm.js",
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@chakra-ui/pro-theme": "0.0.57",
