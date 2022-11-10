@@ -51,7 +51,7 @@ yarn add chakra-radio-group
 #### Radio Group
 
 - `options` - [❗️] - Array of objects
-- `getOptionValue` - [❗️] - A function that chooses which property from the object from options will be chosen as the value for **Radio Group Item**
+- `getOptionValue` - [❗️] - A function that chooses which property from the object from options will be chosen as the value for **Radio Group Item** component
 - `value` - [❓] - String value from options which matches the key from **_getOptionValue_** function
 - `defaultValue` - [❓] - String value from options which matches the key from **_getOptionValue_** function
 - `name` - [❓] - String value which sets the input name attribute
