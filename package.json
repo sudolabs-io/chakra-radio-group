@@ -15,6 +15,7 @@
     "url": "git+https://github.com/sudolabs-io/chakra-radio-group.git"
   },
   "keywords": [
+    "react",
     "chakra",
     "chakra-radio",
     "chakra-radio-group",
